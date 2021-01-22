@@ -1,0 +1,18 @@
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    &__menu {
+        a {
+            color: #323232;
+            margin: 0 18px;
+            padding: 10px;
+            border: 1px solid white;
+        }
+        a:hover {
+            border: 1px solid #ffc222;
+        }
+    }
+}

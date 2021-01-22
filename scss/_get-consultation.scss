@@ -1,0 +1,96 @@
+.get-consultation {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    &__toptitle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        margin-top: 65px;
+        width: 289px;
+        height: 22px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.6px;
+        text-align: center;
+        color: #212020;
+    }
+
+    &__text {
+        margin-top: 20px;
+        width: 376px;
+        height: 49px;
+        font-family: PTSerif;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: #5e5e5e;
+    }
+
+    &__main {
+        display: flex;
+    }
+
+    // &__column {
+    // }
+
+    &__email {
+        margin-top: 43px;
+    }
+
+    // &__phone-number {
+    // }
+
+    // &__FIO {
+    // }
+
+    // &__theme-answer {
+    // }
+    // &__column {
+    // }
+
+    &__message {
+        margin-top: 43px;
+        margin-left: 28px;
+        input {
+            width: 557px;
+            height: 195px;
+            border: solid 1px #e6e6e6;
+        }
+    }
+
+    &__img {
+        width: 256px;
+        height: 458px;
+    }
+}
+.input {
+    input {
+        width: 264px;
+        height: 40px;
+        border: solid 1px #e6e6e6;
+    }
+
+    &__text {
+        margin-top: 17px;
+        margin-bottom: 9px;
+    }
+    &__themes {
+        select {
+            width: 264px;
+            height: 40px;
+            border: solid 1px #e6e6e6;
+        }
+        option {
+            width: 264px;
+            height: 40px;
+            border: solid 1px #e6e6e6;
+        }
+    }
+}

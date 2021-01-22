@@ -1,0 +1,38 @@
+.header-main {
+    &__leftsliders {
+        background: url(img/fon.jpg);
+    }
+    &__rightsliders {
+        background-image: url(img/about-fon.jpg);
+    }
+    width: 100%;
+    height: 500px;
+    // background-image: url(img/fon.jpg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    &__button {
+        opacity: 10%;
+    }
+    // &__learn-more {
+    // }
+    &__about {
+        text-align: center;
+        color: white;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 1.5px;
+    }
+
+    &__text {
+        color: #bbbcbd;
+        font-size: 18px;
+        line-height: 1.33;
+        width: 610px;
+    }
+}

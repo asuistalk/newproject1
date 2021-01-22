@@ -1,0 +1,39 @@
+@import "_null";
+@import "_header-topmenu";
+@import "_header_menu";
+@import "_header_main";
+@import "_services";
+@import "_about-company";
+@import "_get-consultation";
+@import "_advanteget";
+@import "_news";
+@import "_modal-window";
+.line {
+    position: absolute;
+    margin-top: 74px;
+    margin-left: -100px;
+    width: 106px;
+    height: 2px;
+    background-color: #ffc222;
+}
+.rigthmenu {
+    display: flex;
+    background-color: #ffc222;
+    color: #1b1b1b;
+    align-items: center;
+    &__briefcase {
+        filter: brightness(0);
+        img {
+            margin: auto;
+            width: 50%;
+        }
+    }
+    &__freecons {
+        margin-left: 10px;
+        font-size: 16px;
+        line-height: 2.25;
+        color: #1b1b1b;
+        font-family: Roboto;
+        padding-right: 15px;
+    }
+}

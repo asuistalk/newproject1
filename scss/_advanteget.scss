@@ -1,0 +1,34 @@
+.advanteges {
+    width: 100%;
+    background-image: url(img/adv-fon.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 285px;
+    &__column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        margin-top: 118px;
+        width: 285px;
+        height: 42px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.33;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    &__text {
+        width: 331px;
+        height: 37px;
+        font-family: PTSerif;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.14px;
+        text-align: center;
+    }
+}

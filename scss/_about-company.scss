@@ -1,0 +1,37 @@
+.about-company {
+    background-image: url(img/about-fon.jpg);
+    width: 1918px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        margin-left: 21%;
+        margin-top: 37px;
+        width: 135px;
+        height: 19px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    &__text {
+        margin-left: 21%;
+        margin-top: 34px;
+        width: 537px;
+        height: 86px;
+        font-family: PTSerif;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: #d3d2d2;
+    }
+    &__to-order {
+        margin-left: 21%;
+        margin-top: 47px;
+    }
+}

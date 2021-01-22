@@ -1,0 +1,46 @@
+.header-body {
+    &__topmenu {
+        margin: auto;
+        width: 100%;
+        height: 45px;
+        background-color: #303030;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__contacts {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.71;
+        display: flex;
+        align-items: center;
+        a {
+            color: #cbcacb;
+        }
+    }
+    &__emeil {
+        margin-left: 60px;
+    }
+
+    &__rightmenu {
+        display: flex;
+        background-color: #ffc222;
+        color: #1b1b1b;
+        align-items: center;
+    }
+    &__briefcase {
+        filter: brightness(0);
+        img {
+            margin: auto;
+            width: 50%;
+        }
+    }
+
+    &__freecons {
+        margin-left: 10px;
+        font-size: 16px;
+        line-height: 2.25;
+        color: #1b1b1b;
+        font-family: Roboto;
+        padding-right: 15px;
+    }
+}

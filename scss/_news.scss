@@ -1,0 +1,131 @@
+.news {
+    width: 80%;
+    height: 655px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    &__toptitle {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__title {
+        width: 366px;
+        height: 41px;
+        font-family: Myriad Pro;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #242424;
+    }
+
+    &__text {
+        width: 446px;
+        height: 122px;
+        font-family: PTSerif;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: #5e5e5e;
+    }
+
+    &__button {
+        button {
+            width: 223px;
+            height: 40px;
+            border: solid 3px #e6e6e6;
+            background-color: #e6e6e6;
+        }
+    }
+    &__main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 53px;
+        justify-content: space-between;
+    }
+
+    &__sliders {
+        padding-left: 30px;
+        width: 554px;
+        height: 341px;
+        box-shadow: 0px 5px 15.4px 0.6px rgba(128, 127, 127, 0.13);
+        background-color: #ffffff;
+    }
+    &__sliders-title {
+        margin-top: 62px;
+        width: 366px;
+        height: 41px;
+        font-family: Myriad Pro;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #242424;
+    }
+    &__sliders-text {
+        margin-top: 19px;
+        width: 446px;
+        height: 122px;
+        font-family: PTSerif;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: #5e5e5e;
+    }
+
+    &__sliders-footer {
+        margin-top: 37px;
+        width: 399px;
+        height: 13px;
+        font-family: Myriad Pro;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: #212020;
+    }
+
+    &__blog {
+        width: 263px;
+        height: 350px;
+    }
+
+    &__img {
+        width: 262px;
+        height: 190px;
+    }
+
+    &__blog-title {
+        margin-top: 20px;
+        width: 152px;
+        height: 13px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.13;
+        letter-spacing: 0.8px;
+        text-align: center;
+        color: #242424;
+    }
+
+    &__blog-text {
+        margin-top: 17px;
+        width: 256px;
+        height: 85px;
+        font-family: PTSerif;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: #5e5e5e;
+    }
+    &__buttons {
+        display: flex;
+        margin: auto;
+    }
+}
